@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  WebAppBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-web-app-bucket-harish-xyz-abc123-xyz456-random  # New unique name
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html  # Optional error page
