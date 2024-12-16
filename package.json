@@ -1,0 +1,23 @@
+{
+  "name": "CICD_Final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harix034/CICD_Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harix034/CICD_Final/issues"
+  },
+  "homepage": "https://github.com/Harix034/CICD_Final#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
