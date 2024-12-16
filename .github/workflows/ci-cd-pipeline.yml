@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install  # Installs all npm dependencies
-          sudo chown -R $USER:$GROUP node_modules  # Fix permissions
+          sudo chmod -R 755 node_modules/.bin  # Ensure the jest binary has execute permissions
 
       - name: Run Tests
         run: npm test  # Runs the Jest tests
